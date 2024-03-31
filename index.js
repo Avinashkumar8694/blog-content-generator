@@ -3,7 +3,6 @@ const TelegramBot = require('node-telegram-bot-api');
 const axios = require('axios');
 const cheerio = require('cheerio');
 require('dotenv').config()
-const {createCompletion} = require('./generateText');
 
 // Set up the Telegram bot API token
 const botToken = process.env.BOT_TOKEN;
